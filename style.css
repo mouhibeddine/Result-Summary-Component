@@ -1,0 +1,208 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;700;800&display=swap');
+
+/* start variables*/
+/* end variables*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 680px;
+    height: 480px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 5%);
+    padding: 0;
+    font-family: Hanken Grotesk;
+}
+/* Start Result section*/
+.result-section {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-style: solid;
+    border-radius: 25px;
+    border: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(360deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%) 100%);
+    
+
+}
+.result-title {
+   position: absolute;
+   color: hsl(241, 100%, 89%);
+   
+   top: 33px;
+   margin:0;
+   font-size: 21px;
+   letter-spacing: 1px;
+   font-weight: 400;
+}
+.result-circle {
+    
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 50%, hsla(241, 72%, 46%, 0) 100%);
+}
+.score {
+    font-size: 85px;
+    margin-top: 35px;
+    margin-bottom:0px;
+    color: white;
+}
+h4 {
+    margin-top: -15px;
+    font-size: 16px;
+    color:hsl(241, 100%, 89%);
+    opacity: 75%;
+    font-weight: 300;
+
+}
+.result-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.mark {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+.comment {
+    text-align: center;
+    padding-right: 65px;
+    padding-left: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color:hsl(241, 100%, 89%);
+    font-weight: 300;
+   
+   
+}
+/* End Result section*/
+
+/* Start Summary section*/
+.summary-section {
+    position: absolute;
+    width: 49.4%;
+    height: 100%;
+    right: 0;
+    border-radius: 0px 25px 25px 0;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    
+}
+.summary-title {
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    
+}
+.reaction, .memory, .verbal, .visual {
+    width: 245px;
+    border-radius: 10px;
+    height: 50px;
+    align-self: center;
+    margin-bottom: 17px;
+    margin-top: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    font-size: 14px;
+}
+b{
+    color: gray;
+}
+img{
+    margin-left: 0;
+    margin-right: 10px;
+    align-self:center;
+}
+.react, .mem, .verb, .vis{
+    display: flex;
+    
+}
+.summ-results {
+    justify-self: flex-end;
+}
+
+.reaction{
+    background-color: hsl(0, 100%, 96%);
+    
+}
+.react {
+  color: hsl(0, 100%, 47%);
+    
+}
+.memory{
+    background-color: hsl(39, 100%, 96%);
+    
+}
+.mem{
+    color: hsl(39, 100%, 47%);
+
+}
+.verbal{
+    background-color: hsl(166, 100%, 96%);
+}
+.verb{
+    color: hsl(166, 100%, 38%);
+
+}
+.visual{
+    margin-bottom: 0;
+    background-color: hsl(234, 85%, 96%);
+
+}
+.vis{
+    color: hsl(234, 85%, 25%);
+}
+.button {
+    margin-top: 45px;
+    align-self: center;
+    width: 275px;
+    height: 45px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+}
+.button:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+}
+.button h3 {
+    color: white;
+}
+
+/* End Summary section*/
